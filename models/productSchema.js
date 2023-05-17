@@ -5,7 +5,9 @@ const new_Product = new schema({
   
     name: { type: String, requied: true },
     discription: { type: String, requied: true },
-    price: { type: Number, requied: true },
+    mrp: { type: Number, requied: true },
+    discount: { type: Number, requied: true },
+    shippingCharge: { type: Number, requied: true },
     date:{type:Date,default:Date.now()}
 
 });
